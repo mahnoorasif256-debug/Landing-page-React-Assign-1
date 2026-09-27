@@ -12,14 +12,6 @@ import styles from './Badges.module.css';
     { title: "GIFT SETS", subtitle: "Perfectly Curated", icon: "fa-solid fa-gift" },
   ];
 
-  const categories = [
-  { title: "MAKEUP", img: "/images/makeup.jpg" },
-  { title: "SKINCARE", img: "/images/skincare.jpg" },
-  { title: "LIPS", img: "/images/lips.jpg" },
-  { title: "TOOLS & BRUSHES", img: "/images/brushes.jpg" },
-  { title: "FRAGRANCE", img: "/images/fragrance.jpg" },
-  { title: "GIFTS & SETS", img: "/images/giftsets.jpg" },
-];
 
   return (
     <div className={styles.categories_section }>

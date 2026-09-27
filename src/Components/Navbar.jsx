@@ -24,7 +24,7 @@ return (
     <div className="container d-flex justify-content-between align-items-center">
       
       {/* Brand Logo (Fixing width container so it doesn't push items) */}
-      <a className="navbar-brand d-flex align-items-center py-0" href="#" style={{ minWidth: '160px' }}>
+      <a className="navbar-brand d-flex align-items-center py-0" href="#!" style={{ minWidth: '160px' }}>
         <img 
           src={image} 
           alt="Noor Glow Logo" 
