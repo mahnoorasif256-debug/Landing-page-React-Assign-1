@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="row justify-content-between fot">
           <div className="col-md-3 mb-5 mb-md-0">
             {/* <h4 className={styles.footer_brand}>Noor Glow</h4> */}
-             <a className="navbar-brand d-flex align-items-center py-0" href="#" style={{ minWidth: '160px' }}>
+             <a className="navbar-brand d-flex align-items-center py-0" href="#!" style={{ minWidth: '160px' }}>
         <img 
           src={footer} 
           alt="Noor Glow Logo" 
@@ -64,10 +64,10 @@ const Footer = () => {
   Luxury skincare and makeup crafted with passion and the finest ingredients to make every moment unforgettable.
 </p>
             <div className={styles.social_icons}>
-              <a href="#"><i className="fa-brands fa-instagram"></i></a>
-              <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i className="fa-brands fa-twitter"></i></a>
-              <a href="#"><i className="fa-brands fa-pinterest-p"></i></a>
+              <a href="#!"><i className="fa-brands fa-instagram"></i></a>
+              <a href="#!"><i className="fa-brands fa-facebook-f"></i></a>
+              <a href="#!"><i className="fa-brands fa-twitter"></i></a>
+              <a href="#!"><i className="fa-brands fa-pinterest-p"></i></a>
             </div>
           </div>
 
@@ -75,10 +75,10 @@ const Footer = () => {
           <div className="col-md-2 col-12 mb-3 ps-5 mb-md-0">
             <h6 className={styles.col_title}>SHOP</h6>
             <ul className={styles.col_links}>
-              <li><a href="#">All Products</a></li>
-              <li><a href="#">Best Sellers</a></li>
-              <li><a href="#">New Arrivals</a></li>
-              <li><a href="#">Gift Sets</a></li>
+              <li><a href="#!">All Products</a></li>
+              <li><a href="#!">Best Sellers</a></li>
+              <li><a href="#!">New Arrivals</a></li>
+              <li><a href="#!">Gift Sets</a></li>
             </ul>
           </div>
 
@@ -86,10 +86,10 @@ const Footer = () => {
           <div className="col-md-2 col-12 mb-3 ps-5 mb-md-0">
             <h6 className={`${styles.col_title} me-4`}>COLLECTIONS</h6>
             <ul className={styles.col_links}>
-              <li><a href="#">Skincare</a></li>
-              <li><a href="#">Makeup</a></li>
-              <li><a href="#">Lips & Eyes</a></li>
-              <li><a href="#">Brushes</a></li>
+              <li><a href="#!">Skincare</a></li>
+              <li><a href="#!">Makeup</a></li>
+              <li><a href="#!">Lips & Eyes</a></li>
+              <li><a href="#!">Brushes</a></li>
             </ul>
           </div>
 
@@ -97,10 +97,10 @@ const Footer = () => {
           <div className="col-md-2 ps-5 col-12 mb-3 mb-md-0">
             <h6 className={`${styles.col_title} me-2`}>CUSTOMER CARE</h6>
             <ul className={styles.col_links}>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Shipping & Delivery</a></li>
-              <li><a href="#">Returns</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="#!">Contact Us</a></li>
+              <li><a href="#!">Shipping & Delivery</a></li>
+              <li><a href="#!">Returns</a></li>
+              <li><a href="#!">FAQ</a></li>
             </ul>
           </div>
 
@@ -108,10 +108,10 @@ const Footer = () => {
           <div className="col-md-3 ps-5 col-12">
             <h6 className={`${styles.col_title} `}>COMPANY</h6>
             <ul className={styles.col_links}>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Sustainability</a></li>
-              <li><a href="#">Careers</a></li>
+              <li><a href="#!">About Us</a></li>
+              <li><a href="#!">Our Story</a></li>
+              <li><a  href="#!">Sustainability</a></li>
+              <li><a href="#!">Careers</a></li>
             </ul>
           </div>
 

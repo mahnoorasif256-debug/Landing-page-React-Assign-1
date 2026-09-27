@@ -71,7 +71,7 @@ return (
           <span className="fs-5 cursor-pointer text-dark" title="Search">🔍</span>
           <span className="fs-5 cursor-pointer text-dark" title="Account">👤</span>
           <span className="fs-5 cursor-pointer text-dark" title="Wishlist">❤️</span>
-          <a href="#" className="btn rounded-pill px-4 text-white ms-2" style={{ backgroundColor: '#d48395', fontSize: '14px' }}>
+          <a href="#!" className="btn rounded-pill px-4 text-white ms-2" style={{ backgroundColor: '#d48395', fontSize: '14px' }}>
             Cart (0)
           </a>
         </div>

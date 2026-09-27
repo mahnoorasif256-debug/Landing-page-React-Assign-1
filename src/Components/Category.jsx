@@ -54,7 +54,7 @@ const Category = () => {
 
         <div className={styles.section_header}>
           <h5 className={styles.section_title}>BEST SELLERS</h5>
-          <a href="#" className={styles.view_all}>VIEW ALL →</a>
+          <a href="#!" className={styles.view_all}>VIEW ALL →</a>
         </div>
 
         <div className={styles.products_row}>
