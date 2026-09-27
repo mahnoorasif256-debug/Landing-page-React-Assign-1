@@ -1,0 +1,281 @@
+.footer_section {
+  background-color: #120e0f;
+  color: #d4c5c2;
+  margin-top: 60px;
+}
+
+
+/* Trust Strip */
+.trust_strip {
+  background-color: #f7efed;
+  color: #4a3b3c;
+  border-bottom: 1px solid #e2c9c5;
+}
+
+.seen_text {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
+.brand_logos {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-family: serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+
+.font_bazaar {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.font_elle {
+  font-family: Georgia, serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.font_vogue {
+  font-family: 'Times New Roman', serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.font_esquire {
+  font-family: 'Brush Script MT', cursive;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.font_gq {
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+
+@media(max-width: 971px){
+  .patti {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    row-gap: 12px !important;
+    column-gap: 18px !important;
+    text-align: center;
+  }
+
+  /* direct children of .patti = the 6 spans + the features div.
+     flex: 0 0 auto stops them shrinking (which was breaking text
+     into single words on separate lines); white-space keeps each
+     text label on one line so whole items wrap, not words. */
+  .patti > span {
+    flex: 0 0 auto !important;
+    white-space: nowrap;
+  }
+
+  /* the nested "features" div (MADE IN FRANCE / VEGAN & CRUELTY FREE) */
+  .patti > div {
+    display: flex !important;
+    flex: 1 1 100% !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    row-gap: 10px !important;
+    column-gap: 18px !important;
+  }
+
+  .patti > div > div {
+    flex: 0 0 auto !important;
+    white-space: nowrap;
+  }
+}
+
+@media(max-width: 576px){
+  .patti > div {
+    flex-direction: column !important;
+    row-gap: 10px !important;
+  }
+
+  .patti > div > div {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    white-space: normal;
+  }
+
+  .patti > div > div:nth-child(even) {
+    align-items: center !important;
+  }
+
+  .font_bazaar,
+  .font_elle,
+  .font_vogue,
+  .font_esquire,
+  .font_gq {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Newsletter Strip */
+.newsletter_bg {
+  background: linear-gradient(rgba(18, 14, 15, 0.85), rgba(18, 14, 15, 0.85)), 
+              url('https://lens.usercontent.google.com/banana?agsi=CmdnbG9iYWw6OjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAwZWI6MTpjZWJmMzcyZWIwNTA4ZDMyOjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAzMjkwMmYwMzM2ODowMDA2NWM2MzhhZmQzNmJmEAIYASIKaW1hZ2UvanBlZw==');
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid #2b2223;
+}
+
+.newsletter_title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.newsletter_desc {
+  color: #b8a8a9;
+  font-size: 12px;
+  margin: 0;
+}
+
+.subscribe_box {
+  display: flex;
+  gap: 10px;
+}
+
+.email_input {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid #4a3b3c;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.email_input:focus {
+  outline: none;
+  border-color: #c47184;
+}
+
+.subscribe_btn {
+  background-color: #c47184;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe_btn:hover {
+  background-color: #d4b5b0;
+  color: #120e0f;
+}
+
+/* Main Footer Columns */
+.footer_brand {
+  color: #fff;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  
+}
+
+.footer_brand_desc {
+  font-size: 11px;
+  color: #b8a8a9;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.social_icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social_icons a {
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.social_icons a:hover {
+  color: #c47184;
+ transform: translateY(-4px);
+}
+
+.col_title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.col_links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.col_links li {
+  margin-bottom: 8px;
+}
+
+.col_links a {
+  color: #b8a8a9;
+  text-decoration: none;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.col_links a:hover {
+  color: #fff;
+}
+
+.copyright {
+  font-size: 11px;
+  color: #7a6b6c;
+  margin: 0;
+}
+
+.footer{
+      background-color: #c47184;
+}
+
+
+@media(max-width: 678px){
+.fot{
+  display: flex !important;
+  flex-direction: column !important;
+}
+}
+

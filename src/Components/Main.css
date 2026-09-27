@@ -1,0 +1,35 @@
+/* Global Scrollbar Styles for Noor Glow */
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #fdf8f8; 
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #d48395; 
+    border-radius: 5px;
+    border: 2px solid #fdf8f8; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c47184; 
+}
+
+header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1030 !important;
+}
+
+.navbar {
+  position: relative !important;
+  transform: none !important;
+}
+
+body {
+  overflow-x: hidden;
+}

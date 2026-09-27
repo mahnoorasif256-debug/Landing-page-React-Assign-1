@@ -1,0 +1,25 @@
+.categories_section {
+  background-color: #f7efed; 
+  padding: 20px 0;
+  width: 100%;
+}
+
+.icon_circle {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 1.5px solid #d4b5b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #4a3b3c;
+  flex-shrink: 0;
+}
+
+.icon_circle:hover {
+  background-color: #f0e1df;
+  border-color: #b89792;
+   transform: translateY(-3px);
+}
+
