@@ -72,7 +72,7 @@ body {
 
 @media (max-width: 768px) {
   .categories_row {
-    gap: 30px;
+    gap: 90px;
   }
 
   .img_circle,
@@ -84,7 +84,7 @@ body {
 
 @media (max-width: 480px) {
   .categories_row {
-    gap: 20px;
+    gap: 50px;
     justify-content: space-evenly;
   }
 
@@ -98,6 +98,17 @@ body {
     width: 80px;
   }
 }
+
+
+@media (max-width: 448px){
+ .categories_row {
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
 /* /////// */
 
 /* best seller */

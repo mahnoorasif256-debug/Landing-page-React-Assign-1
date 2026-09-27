@@ -64,10 +64,10 @@ const Footer = () => {
   Luxury skincare and makeup crafted with passion and the finest ingredients to make every moment unforgettable.
 </p>
             <div className={styles.social_icons}>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              <a href="#"><i className="fa-brands fa-instagram"></i></a>
+              <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i className="fa-brands fa-twitter"></i></a>
+              <a href="#"><i className="fa-brands fa-pinterest-p"></i></a>
             </div>
           </div>
 
