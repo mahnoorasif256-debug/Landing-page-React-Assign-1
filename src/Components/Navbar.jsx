@@ -23,7 +23,7 @@ return (
   <nav className="navbar navbar-expand-lg navbar-light bg-white py-2 border-bottom">
     <div className="container d-flex justify-content-between align-items-center">
       
-      {/* Brand Logo (Fixing width container so it doesn't push items) */}
+      {/* Brand Logo*/}
       <a className="navbar-brand d-flex align-items-center py-0" href="#!" style={{ minWidth: '160px' }}>
         <img 
           src={image} 
@@ -50,19 +50,19 @@ return (
             <a className="nav-link text-dark active" href="#home">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-secondary" href="#shops">Shop</a>
+            <a className="nav-link text-dark" href="#shops">Shop</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-secondary" href="#skincare">Skincare</a>
+            <a className="nav-link text-dark" href="#skincare">Skincare</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-secondary" href="#makeup">Makeup</a>
+            <a className="nav-link text-dark" href="#makeup">Makeup</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-secondary" href="#footer">About Us</a>
+            <a className="nav-link text-dark" href="#footer">About Us</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-secondary" href="#footer">Contact Us</a>
+            <a className="nav-link text-dark" href="#footer">Contact Us</a>
           </li>
         </ul>
 

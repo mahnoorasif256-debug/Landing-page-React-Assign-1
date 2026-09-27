@@ -33,3 +33,8 @@ header {
 body {
   overflow-x: hidden;
 }
+
+
+.navbar a:hover {
+  color: rgb(94, 90, 90) !important;
+}
