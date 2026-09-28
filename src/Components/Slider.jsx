@@ -8,8 +8,8 @@ import slide4 from '../images/slide4.png'
 
 
 const Slider = () => {
-  useEffect(() => {
-    const swiper = new window.Swiper('.mySwiper', {
+useEffect(() => {
+    window.Swiper('.mySwiper', {
       spaceBetween: 50,
       pagination: {
         el: '.swiper-pagination',
@@ -17,7 +17,7 @@ const Slider = () => {
       },
     });
 
-    const swiper2 = new window.Swiper('.mySwiper2', {
+    window.Swiper('.mySwiper2', {
       direction: 'vertical',
       spaceBetween: 50,
       pagination: {
