@@ -9,22 +9,24 @@ import slide4 from '../images/slide4.png'
 
 const Slider = () => {
 useEffect(() => {
-    window.Swiper('.mySwiper', {
-      spaceBetween: 50,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
+    if (window.Swiper) {
+      new window.Swiper('.mySwiper', {
+        spaceBetween: 50,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
 
-    window.Swiper('.mySwiper2', {
-      direction: 'vertical',
-      spaceBetween: 50,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
+      new window.Swiper('.mySwiper2', {
+        direction: 'vertical',
+        spaceBetween: 50,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    }
   }, []);
 
   return (
