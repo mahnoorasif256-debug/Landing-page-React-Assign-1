@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './Category.module.css'
 import makeup from '../images/makeup.jpg'
-import skincare from '../images/skincare.jpg'
 import lips from '../images/lips.jpg'
 import  brushes from '../images/brushes.jpg'
 import  fragrance from '../images/fragrance.jpg'
@@ -10,13 +9,11 @@ import foundation from '../images/foundation.png'
 import mascara from '../images/mascara.png'
 import eyeshadow from '../images/eyeshadow.png'
 import serum from '../images/serum.png'
-import skinimg from '../images/skinimg.jpg'
 
 const Category = () => {
 
     const categoriesData = [
   { title: "MAKEUP", img: makeup},
-  { title: "SKINCARE", img: skincare },
   { title: "LIPS", img: lips },
   { title: "TOOLS & BRUSHES", img: brushes },
   { title: "FRAGRANCE", img: fragrance },
@@ -30,6 +27,10 @@ const Category = () => {
     { name: "Glow Boost Serum", price: "$28.00", rating: "5.0", reviews: "643", img: serum },
   ];
 
+
+
+
+  
  return(
 
  <div className={styles.categories_section} id='shops'>
@@ -85,16 +86,8 @@ const Category = () => {
       </div>
     </div>
 
-<div className='text-center pt-3 skin' id='skincare'>
-          <h1 className={`pb-4 ${styles.head}`}>SkinCare <span style={{color: '#c47184'}}>Product</span></h1>
 
-<img className='rounded-1 img-fluid' width={1700} src={skinimg} alt="skincare img" />
-</div>
     </div>
-
-
-
-
  )  
   
 }

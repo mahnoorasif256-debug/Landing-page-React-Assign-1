@@ -168,7 +168,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding-bottom: 10px;
 }
 
 .product_card {
@@ -348,16 +347,8 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-
-
-
-
 /* skincare */
 
 
-.head {
-  text-shadow: 2px 2px 8px rgba(196, 113, 132, 0.4) !important;
-  font-weight: 700;
-  font-size: 45px;
-  font-family: serif;
-}
+
+
